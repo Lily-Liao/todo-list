@@ -191,6 +191,12 @@ img {
     width: 90%;
     margin: 5% auto;
   }
+  .list__add {
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 5%;
+}
 }
 
 .list__add {
@@ -200,8 +206,8 @@ img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  // -ms-flex-wrap: wrap;
+      // flex-wrap: wrap;
   width: 100%;
   margin-bottom: 5%;
 }
