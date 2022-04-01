@@ -191,12 +191,6 @@ img {
     width: 90%;
     margin: 5% auto;
   }
-  .list__add {
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  width: 100%;
-  margin-bottom: 5%;
-}
 }
 
 .list__add {
@@ -245,7 +239,14 @@ img {
           justify-content: space-between;
   font-size: large;
 }
-
+@media (max-width: 768px) {
+  .list__add {
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 5%;
+}
+}
 .delete {
   margin: 5px;
 }
